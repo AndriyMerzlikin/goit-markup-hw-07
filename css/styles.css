@@ -477,6 +477,11 @@ body {
   text-transform: capitalize;
   color: var(--main-txt-clr);
 }
+@media only screen and (min-width: 768px) {
+  .title-position {
+    text-align: left;
+  }
+}
 .uppertitle {
   font-weight: 500;
   font-size: 16px;
@@ -484,9 +489,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-txt-clr);
 }
-/* .second-section-list:not(:last-child) {
-  margin-bottom: 72px;
-} */
 .second-section {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -509,9 +511,6 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .second-section-list {
     width: 356px;
-  }
-  .title-position {
-    text-align: left;
   }
 }
 /* desctop */
