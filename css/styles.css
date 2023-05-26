@@ -68,7 +68,7 @@ button {
 .container {
   /* basic styles */
   padding: 0 16px;
-  min-width: 428px;
+  min-width: 320px;
   max-width: 428px;
   margin: 0 auto;
   /* outline: 1px solid red; */
@@ -299,8 +299,12 @@ body {
 }
 
 /* HERO SECTION */
-.hero-cntnr {
-  padding: 112px 54px;
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+/* .hero-cntnr {
+  padding-left: 54px; */
 }
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .hero-cntnr {
@@ -308,7 +312,7 @@ body {
   }
 }
 @media only screen and (min-width: 1158px) {
-  .hero-cntnr {
+  .hero {
     padding-top: 188px;
     padding-bottom: 188px;
   }
@@ -799,23 +803,25 @@ body {
   color: var(--light-txt-clr);
 }
 .footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
   min-width: 428px;
   background: var(--secondary-bg-clr);
 }
 .second-footer-logo {
   color: var(--light-txt-clr);
 }
-.footer-cntnr {
+/* .footer-cntnr {
   padding-top: 96px;
   padding-bottom: 96px;
-}
+} */
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .footer-cntnr {
     padding-left: 108px;
   }
 }
 @media only screen and (min-width: 1158px) {
-  .footer-cntnr {
+  .footer {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -850,6 +856,11 @@ body {
 
 .footer-logo-cntnr {
 }
+/* @media only screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer-logo-cntnr {
+    margin-left: 108px;
+  }
+} */
 @media only screen and (min-width: 1158px) {
   .footer-logo-cntnr {
     margin-right: 120px;
